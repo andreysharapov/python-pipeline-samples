@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_andreysharapov_python_pipeline_samples_1715948357963-push-trigger-input-set
+  identifier: Build_andreysharapov_python_pipeline_samples_1715948357963pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_andreysharapov_python_pipeline_samples_1715948357963
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
