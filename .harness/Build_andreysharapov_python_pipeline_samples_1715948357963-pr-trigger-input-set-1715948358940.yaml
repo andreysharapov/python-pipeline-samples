@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_andreysharapov_python_pipeline_samples_1715948357963-pr-trigger-input-set
+  identifier: Build_andreysharapov_python_pipeline_samples_1715948357963prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_andreysharapov_python_pipeline_samples_1715948357963
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
